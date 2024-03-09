@@ -1,0 +1,326 @@
+[
+    {
+        "id": 0,
+        "serviceName": "Other service",
+        "serviceIcon": "other_service_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 1,
+        "serviceName": "Google",
+        "serviceIcon": "google_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 2,
+        "serviceName": "Facebook",
+        "serviceIcon": "facebook_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 3,
+        "serviceName": "Instagram",
+        "serviceIcon": "instagram_ico",
+        "serviceColor": "purple"
+    },
+    {
+        "id": 4,
+        "serviceName": "LinkedIn",
+        "serviceIcon": "linkedin_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 5,
+        "serviceName": "Snapchat",
+        "serviceIcon": "snapchat_ico",
+        "serviceColor": "yellow"
+    },
+    {
+        "id": 6,
+        "serviceName": "TikTok",
+        "serviceIcon": "tiktok_ico",
+        "serviceColor": "pink"
+    },
+    {
+        "id": 7,
+        "serviceName": "Pinterest",
+        "serviceIcon": "pinterest_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 8,
+        "serviceName": "Reddit",
+        "serviceIcon": "reddit_ico",
+        "serviceColor": "orange"
+    },
+    {
+        "id": 9,
+        "serviceName": "Tumblr",
+        "serviceIcon": "tumblr_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 10,
+        "serviceName": "PayPal",
+        "serviceIcon": "paypal_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 11,
+        "serviceName": "Venmo",
+        "serviceIcon": "venmo_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 12,
+        "serviceName": "Cash App",
+        "serviceIcon": "cash_app_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 13,
+        "serviceName": "Coinbase",
+        "serviceIcon": "coinbase_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 14,
+        "serviceName": "Robinhood",
+        "serviceIcon": "robinhood_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 15,
+        "serviceName": "TransferWise",
+        "serviceIcon": "transferwise_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 16,
+        "serviceName": "Revolut",
+        "serviceIcon": "revolut_ico",
+        "serviceColor": "black"
+    },
+    {
+        "id": 17,
+        "serviceName": "N26",
+        "serviceIcon": "n26_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 18,
+        "serviceName": "ING",
+        "serviceIcon": "ing_ico",
+        "serviceColor": "orange"
+    },
+    {
+        "id": 19,
+        "serviceName": "BNP Paribas",
+        "serviceIcon": "bnp_paribas_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 20,
+        "serviceName": "Société Générale",
+        "serviceIcon": "societe_generale_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 21,
+        "serviceName": "Crédit Agricole",
+        "serviceIcon": "credit_agricole_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 22,
+        "serviceName": "La Banque Postale",
+        "serviceIcon": "la_banque_postale_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 23,
+        "serviceName": "WhatsApp",
+        "serviceIcon": "whatsapp_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 24,
+        "serviceName": "Telegram",
+        "serviceIcon": "telegram_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 25,
+        "serviceName": "Signal",
+        "serviceIcon": "signal_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 26,
+        "serviceName": "Skype",
+        "serviceIcon": "skype_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 27,
+        "serviceName": "Discord",
+        "serviceIcon": "discord_ico",
+        "serviceColor": "purple"
+    },
+    {
+        "id": 28,
+        "serviceName": "Slack",
+        "serviceIcon": "slack_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 29,
+        "serviceName": "Zoom",
+        "serviceIcon": "zoom_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 30,
+        "serviceName": "Dropbox",
+        "serviceIcon": "dropbox_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 31,
+        "serviceName": "Apple",
+        "serviceIcon": "apple_ico",
+        "serviceColor": "black"
+    },
+    {
+        "id": 32,
+        "serviceName": "Microsoft",
+        "serviceIcon": "microsoft_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 33,
+        "serviceName": "Mega",
+        "serviceIcon": "mega_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 34,
+        "serviceName": "Amazon",
+        "serviceIcon": "amazon_ico",
+        "serviceColor": "orange"
+    },
+    {
+        "id": 35,
+        "serviceName": "Netflix",
+        "serviceIcon": "netflix_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 36,
+        "serviceName": "Spotify",
+        "serviceIcon": "spotify_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 37,
+        "serviceName": "Airbnb",
+        "serviceIcon": "airbnb_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 38,
+        "serviceName": "Booking.com",
+        "serviceIcon": "booking_dot_com_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 39,
+        "serviceName": "Uber",
+        "serviceIcon": "uber_ico",
+        "serviceColor": "black"
+    },
+    {
+        "id": 40,
+        "serviceName": "Lyft",
+        "serviceIcon": "lyft_ico",
+        "serviceColor": "pink"
+    },
+    {
+        "id": 41,
+        "serviceName": "eBay",
+        "serviceIcon": "ebay_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 42,
+        "serviceName": "Etsy",
+        "serviceIcon": "etsy_ico",
+        "serviceColor": "orange"
+    },
+    {
+        "id": 43,
+        "serviceName": "Steam",
+        "serviceIcon": "steam_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 44,
+        "serviceName": "Epic Games store",
+        "serviceIcon": "epic_games_store_ico",
+        "serviceColor": "black"
+    },
+    {
+        "id": 45,
+        "serviceName": "Adobe Creative Cloud",
+        "serviceIcon": "adobe_creative_cloud_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 46,
+        "serviceName": "LastPass",
+        "serviceIcon": "lastpass_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 47,
+        "serviceName": "1Password",
+        "serviceIcon": "1password_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 48,
+        "serviceName": "Authy",
+        "serviceIcon": "authy_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 49,
+        "serviceName": "Duo Mobile",
+        "serviceIcon": "duo_mobile_ico",
+        "serviceColor": "green"
+    },
+    {
+        "id": 50,
+        "serviceName": "Nintendo",
+        "serviceIcon": "nintendo_ico",
+        "serviceColor": "red"
+    },
+    {
+        "id": 51,
+        "serviceName": "OVH",
+        "serviceIcon": "ovh_ico",
+        "serviceColor": "blue"
+    },
+    {
+        "id": 52,
+        "serviceName": "Github",
+        "serviceIcon": "github_ico",
+        "serviceColor": "purple"
+    },
+    {
+        "id": 53,
+        "serviceName": "NordVPN",
+        "serviceIcon": "nordvpn_ico",
+        "serviceColor": "blue"
+    }
+]
