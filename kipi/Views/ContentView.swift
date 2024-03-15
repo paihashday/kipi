@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SwiftData
-import LocalAuthentication
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
