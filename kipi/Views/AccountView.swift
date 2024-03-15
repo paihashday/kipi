@@ -17,8 +17,6 @@ struct AccountView: View {
     
     var account: Account
     
-    @State var prout: Bool = false
-    
     // Account deletion
     @State private var deleteTaps: Int = 0
     @State private var showAccountDeleteConfirmationDialog: Bool = false

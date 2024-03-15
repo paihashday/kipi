@@ -49,6 +49,12 @@
 		00FE74922B96AFDB00805D9B /* EditAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountView.swift; sourceTree = "<group>"; };
 		00FE74972B9B6D6B00805D9B /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
 		00FE74992B9BC3D300805D9B /* AccountsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsList.swift; sourceTree = "<group>"; };
+		00FE74A12B9BFF2800805D9B /* kipiMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kipiMacApp.swift; sourceTree = "<group>"; };
+		00FE74A32B9BFF2800805D9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		00FE74A52B9BFF2800805D9B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		00FE74A72B9BFF2A00805D9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00FE74AA2B9BFF2A00805D9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00FE74AC2B9BFF2A00805D9B /* kipiMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = kipiMac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				000B60522B8982140098A065 /* kipi */,
+				00FE74A02B9BFF2800805D9B /* kipiMac */,
 				000B60512B8982140098A065 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,6 +158,27 @@
 				00FE74972B9B6D6B00805D9B /* AuthController.swift */,
 			);
 			path = Security;
+			sourceTree = "<group>";
+		};
+		00FE74A02B9BFF2800805D9B /* kipiMac */ = {
+			isa = PBXGroup;
+			children = (
+				00FE74A12B9BFF2800805D9B /* kipiMacApp.swift */,
+				00FE74A32B9BFF2800805D9B /* ContentView.swift */,
+				00FE74A52B9BFF2800805D9B /* Item.swift */,
+				00FE74A72B9BFF2A00805D9B /* Assets.xcassets */,
+				00FE74AC2B9BFF2A00805D9B /* kipiMac.entitlements */,
+				00FE74A92B9BFF2A00805D9B /* Preview Content */,
+			);
+			path = kipiMac;
+			sourceTree = "<group>";
+		};
+		00FE74A92B9BFF2A00805D9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				00FE74AA2B9BFF2A00805D9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,7 +409,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kipi/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Kipi;
+				INFOPLIST_KEY_CFBundleDisplayName = Kypi;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "$(PRODUCT_NAME) needs to identify you via Touch ID or Face ID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -393,9 +421,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hestiaworkshop.kipi;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestiaworkshop.keepi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -415,7 +447,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = kipi/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Kipi;
+				INFOPLIST_KEY_CFBundleDisplayName = Kypi;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "$(PRODUCT_NAME) needs to identify you via Touch ID or Face ID";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -427,9 +459,13 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hestiaworkshop.kipi;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hestiaworkshop.keepi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

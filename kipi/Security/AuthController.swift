@@ -27,6 +27,7 @@ class AuthController: ObservableObject {
             let reason = "Authenticate to see access your data"
             context.evaluatePolicy(.deviceOwnerAuthentication, localizedReason: reason) { success, error in
                 if success {
+                    print("app core successfully unlocked")
                     completion(.success(true))
                 } else if let error = error as? LAError {
                     switch error.code {
